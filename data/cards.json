@@ -1,15 +1,15 @@
 [
     {
-        "image": "../assets/Aquino.jpg",
-        "name": "Aquino"
+        "image": "../assets/Alberto-Magno.jpeg",
+        "name": "Alberto Magno"
     },
     {
         "image": "../assets/San_Agustin_.jpg",
         "name": "Agustin"
     },
     {
-        "image": "../assets/Alberto-Magno.jpeg",
-        "name": "Alberto Magno"
+        "image": "../assets/Aquino.jpg",
+        "name": "Aquino"
     },
     {
         "image": "../assets/Guillermo-de-Ockham.jpg",

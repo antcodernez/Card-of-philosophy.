@@ -1,4 +1,4 @@
-# Memony-Card-game-of-philosophy.
+Memony-Card-game-of-philosophy.
 This is a memory card videogame development with html css and javascript
 
 It is mainly inspired by medieval philosophy and there are 9 thinkers in this game
