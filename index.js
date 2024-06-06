@@ -1,18 +1,81 @@
 const gridContainer = document.querySelector(".grid-container");
-let cards = [];
+let cards = [
+  {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AlbertusMagnus.jpg/512px-AlbertusMagnus.jpg",
+      "name": "Alberto Magno"
+  },
+  {
+      "image": "https://www.alejandradeargos.com/images/articulos/Iker/San_Agustin_.jpg",
+      "name": "Agustin"
+  },
+  {
+      "image": "https://www.philosophica.info/voces/aquino/Aquino.jpg",
+      "name": "Aquino"
+  },
+  {
+      "image": "https://www.alejandradeargos.com/images/articulos/Cuartango/Guillermo-de-Ockham.jpg",
+      "name": "Guillermo de Ockham"
+  },
+  {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg/512px-Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg",
+      "name": "Duns Scoto"
+  },
+  {
+      "image": "https://www.sigueme.es/docs/autores/anselmo-de-canterbury-grabado-s-xvi-.jpg",
+      "name": "Anselmo"
+  },
+  {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Boethius_initial_consolation_philosophy.jpg/512px-Boethius_initial_consolation_philosophy.jpg",
+      "name": "Boecio"
+  },
+  {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg/512px-Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg",
+      "name": "San Buenaventura"
+  },
+  {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ramon_Llull.jpg",
+      "name": "Romon Llull"
+  },{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AlbertusMagnus.jpg/512px-AlbertusMagnus.jpg",
+    "name": "Alberto Magno"
+},
+{
+    "image": "https://www.alejandradeargos.com/images/articulos/Iker/San_Agustin_.jpg",
+    "name": "Agustin"
+},
+{
+    "image": "https://www.philosophica.info/voces/aquino/Aquino.jpg",
+    "name": "Aquino"
+},
+{
+    "image": "https://www.alejandradeargos.com/images/articulos/Cuartango/Guillermo-de-Ockham.jpg",
+    "name": "Guillermo de Ockham"
+},
+{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg/512px-Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg",
+    "name": "Duns Scoto"
+},
+{
+    "image": "https://www.sigueme.es/docs/autores/anselmo-de-canterbury-grabado-s-xvi-.jpg",
+    "name": "Anselmo"
+},
+{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Boethius_initial_consolation_philosophy.jpg/512px-Boethius_initial_consolation_philosophy.jpg",
+    "name": "Boecio"
+},
+{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg/512px-Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg",
+    "name": "San Buenaventura"
+},
+{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ramon_Llull.jpg",
+    "name": "Romon Llull"
+}
+];
+
 let firstCard, secondCard;
 let lockBoard = false;
 let score = 0;
-
-document.querySelector(".score").textContent = score;
-
-fetch("./data/cards.json")
-  .then((res) => res.json())
-  .then((data) => {
-    cards = [...data, ...data];
-    shuffleCards();
-    generateCards();
-  });
 
 function shuffleCards() {
   let currentIndex = cards.length,
@@ -97,3 +160,7 @@ function restart() {
   gridContainer.innerHTML = "";
   generateCards();
 }
+
+
+shuffleCards();
+generateCards();
