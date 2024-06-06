@@ -1,38 +1,38 @@
 [
     {
-        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/Alberto-Magno.jpeg?raw=true",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AlbertusMagnus.jpg/512px-AlbertusMagnus.jpg",
         "name": "Alberto Magno"
     },
     {
-        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/San_Agustin_.jpg?raw=true",
+        "image": "https://www.alejandradeargos.com/images/articulos/Iker/San_Agustin_.jpg",
         "name": "Agustin"
     },
     {
-        "image": "https://raw.githubusercontent.com/antcodernez/Memony-Card-game-of-philosophy./master/assets/San_Agustin_.jpg",
+        "image": "https://www.philosophica.info/voces/aquino/Aquino.jpg",
         "name": "Aquino"
     },
     {
-        "image": "../assets/Guillermo-de-Ockham.jpg",
+        "image": "https://www.alejandradeargos.com/images/articulos/Cuartango/Guillermo-de-Ockham.jpg",
         "name": "Guillermo de Ockham"
     },
     {
-        "image": "../assets/Scoto_(Duns_Scoto)_-_Studiolo_di_Federico_da_Montefeltro.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg/512px-Scoto_%28Duns_Scoto%29_-_Studiolo_di_Federico_da_Montefeltro.jpg",
         "name": "Duns Scoto"
     },
     {
-        "image": "../assets/b10699841ff48490f872e5328583e669.jpg",
-        "name": "Someone"
+        "image": "https://www.sigueme.es/docs/autores/anselmo-de-canterbury-grabado-s-xvi-.jpg",
+        "name": "Anselmo"
     },
     {
-        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/512px-Boethius_initial_consolation_philosophy.jpg?raw=true",
-        "name": "hippie"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Boethius_initial_consolation_philosophy.jpg/512px-Boethius_initial_consolation_philosophy.jpg",
+        "name": "Boecio"
     },
     {
-        "image": "../assets/San-BuenaAventura.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg/512px-Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg",
         "name": "San Buenaventura"
     },
     {
-        "image": "../assets/Ramon_Llull.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ramon_Llull.jpg",
         "name": "Romon Llull"
     }
 ]
