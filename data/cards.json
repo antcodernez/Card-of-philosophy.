@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../assets/Aquino.jpg",
+        "name": "Aquino"
+    },
+    {
+        "image": "../assets/San_Agustin_.jpg",
+        "name": "Agustin"
+    },
+    {
+        "image": "../assets/Alberto-Magno.jpeg",
+        "name": "Alberto Magno"
+    },
+    {
+        "image": "../assets/Guillermo-de-Ockham.jpg",
+        "name": "Guillermo de Ockham"
+    },
+    {
+        "image": "../assets/Scoto_(Duns_Scoto)_-_Studiolo_di_Federico_da_Montefeltro.jpg",
+        "name": "Duns Scoto"
+    },
+    {
+        "image": "../assets/b10699841ff48490f872e5328583e669.jpg",
+        "name": "Someone"
+    },
+    {
+        "image": "../assets/512px-Boethius_initial_consolation_philosophy.jpg",
+        "name": "hippie"
+    },
+    {
+        "image": "../assets/San-BuenaAventura.jpg",
+        "name": "San Buenaventura"
+    },
+    {
+        "image": "../assets/Ramon_Llull.jpg",
+        "name": "Romon Llull"
+    }
+]
