@@ -1,14 +1,14 @@
 [
     {
-        "image": "../assets/Alberto-Magno.jpeg",
+        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/Alberto-Magno.jpeg?raw=true",
         "name": "Alberto Magno"
     },
     {
-        "image": "../assets/San_Agustin_.jpg",
+        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/San_Agustin_.jpg?raw=true",
         "name": "Agustin"
     },
     {
-        "image": "../assets/Aquino.jpg",
+        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/Aquino.jpg?raw=true",
         "name": "Aquino"
     },
     {
@@ -24,7 +24,7 @@
         "name": "Someone"
     },
     {
-        "image": "../assets/512px-Boethius_initial_consolation_philosophy.jpg",
+        "image": "https://github.com/antcodernez/Memony-Card-game-of-philosophy./blob/master/assets/512px-Boethius_initial_consolation_philosophy.jpg?raw=true",
         "name": "hippie"
     },
     {
