@@ -31,10 +31,6 @@ let cards = [
   {
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg/512px-Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg",
       "name": "San Buenaventura"
-  },
-  {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ramon_Llull.jpg",
-      "name": "Romon Llull"
   },{
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/AlbertusMagnus.jpg/512px-AlbertusMagnus.jpg",
     "name": "Alberto Magno"
@@ -66,10 +62,6 @@ let cards = [
 {
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg/512px-Francisco_de_Zurbar%C3%A1n_-_The_Prayer_of_St._Bonaventura_about_the_Selection_of_the_New_Pope_-_Google_Art_Project.jpg",
     "name": "San Buenaventura"
-},
-{
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ramon_Llull.jpg",
-    "name": "Romon Llull"
 }
 ];
 
